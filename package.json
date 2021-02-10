@@ -1,0 +1,24 @@
+{
+  "name": "demo-2-node",
+  "version": "1.2.0",
+  "description": "Code Challenge 9: The NPM Resume",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "npx a4ayad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a4ayad/cc9-demo-2-node.git"
+  },
+  "keywords": [
+    "npm",
+    "resume",
+    "cc9"
+  ],
+  "author": "ayad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a4ayad/cc9-demo-2-node/issues"
+  },
+  "homepage": "https://github.com/a4ayad/cc9-demo-2-node#readme"
+}
