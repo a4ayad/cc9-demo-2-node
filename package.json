@@ -3,8 +3,13 @@
   "version": "1.2.0",
   "description": "Code Challenge 9: The NPM Resume",
   "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "aayad": "index.mjs"
+  },
   "scripts": {
-    "test": "npx a4ayad"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
   },
   "repository": {
     "type": "git",
@@ -15,10 +20,13 @@
     "resume",
     "cc9"
   ],
-  "author": "ayad",
-  "license": "ISC",
+  "author": "aayad",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/a4ayad/cc9-demo-2-node/issues"
   },
-  "homepage": "https://github.com/a4ayad/cc9-demo-2-node#readme"
+  "homepage": "https://github.com/a4ayad/cc9-demo-2-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
