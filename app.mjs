@@ -2,10 +2,14 @@ export const app = {
     "id": 1,
     "count": 441,
     "details": {
-        "firstName": "Wright",
-        "lastName": "Rubroe",
-        "email": "wrubroe0@blogger.com",
-        "gender": "Bigender"
+        "firstName": "Ahmed",
+        "lastName": "Ayad",
+        "email": "testing-resume-app@gmail.com",
+        "gender": "Male",
+        "education": {
+            "name": "MS",
+            "type": "EE"
+        }
     }
 }
 
