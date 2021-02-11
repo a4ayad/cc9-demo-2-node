@@ -9,10 +9,21 @@ const PORT = process.env.PORT || 5000
 
 const app = express();
 
+const { basics } = dataResume;
+
 // get pull data, route & callback
 // request/response
 // build backend apps, URL
 // Route to the home page
+
+// app.get('/dataResume', (req, res) => 
+//     res.send(dataResume) 
+// );
+
+app.get('/', (req, res) => 
+    res.send(dataResume) 
+);
+
 app.get ('/', (req, res) => { 
     res.send('Welcome to Ahmed Resume!')
 });
@@ -29,9 +40,7 @@ app.get ('/hello', (req, res) => {
 });
 
 
-app.get('/ahmedResume', (req, res) => 
-    res.send(dataResume) 
-);
+
 
 app.post('/hello', (req, res) => {
     req.body()
