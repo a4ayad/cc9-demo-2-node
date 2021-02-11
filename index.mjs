@@ -2,44 +2,59 @@
 
 import { app } from "./app.mjs";
 
-// One usage could be to run AR work from the current project
-// import { app as EbApp} from 'intro-node';
-// const { details: { firstName } } = EbApp
+const { basics } = app;
 
-// let name = "my name"
-// let { .... { name } } = app
-//Grab details from app
-// detail definition/declaration
-const { details } = app;
-const { details: { education } } = app;
-const { details: { firstName, lastName, email } } = app;
-const { details: { education: { name } } } = app;
+const { basics: { name,email,about } } = app;
 
-// details call: get firstName via details
-// const { details : { firstName } } = app;
+const { basics: { location: { city, state } } } = app;
 
-// destruct the object by hierarchy
+const { basics: { profiles: { github, linkedin } } } = app;
+
+const { basics: { education } } = app;
+
+const { basics: { education: { institution, degree, area } } } = app;
+
+const { basics: { work: { work0, work1, work2 } } } = app;
+
+const { basics: { work: { work0: { summary0, company0, position0 } } } } = app;
+
+const { basics: { work: { work1: { summary1, company1, position1 } } } } = app;
+
+const { basics: { work: { work2: { summary2, company2, position2 } } } } = app;
+
 
 console.log(`
     \n
-    ---------
-    FName: ${firstName} \n
-    LName: ${lastName} \n
-    Email: ${email}
+    ${name}
+    ${email}
+    ${city}, ${state}
+    ${github}
+    ${linkedin}
+    \n
+    About
+    =====
+    ${about}
+
+    \n
+    Experience:
+    ==========
+    * ${position0} ${company0}
+    ${summary2}
+    \n
+    * ${position1} ${company1}
+    ${summary2}
+    \n
+    * ${position2} ${company2} 
+    ${summary2}
+    \n
+    Education:
+    =========
+    ${institution}
+    ${degree}${area}
 
 `)
-// console.log('App: ',     app    )
-// console.log('Details: ', details)
-// console.log('FN props: ', firstName)
 
-// console.log(education)
-// console.log(name)
-// this is tedious
-// console.log(app.details.education.type)
-
-// const { profile: { industryName, appName } } = app
-// const { expertiseA: {expertise1, expertise2, expertise3} } = app
-// // const { expertiseB: {}}
+// TODO: 
 
 // console.log(`------------------------------`)
 // console.log(`Welcome to the ${appName}`)

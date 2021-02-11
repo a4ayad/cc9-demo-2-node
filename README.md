@@ -1,4 +1,11 @@
 # Code Challenge 9: The NPM Resume 
+
+## npm url
+https://www.npmjs.com/package/demo-2-node
+
+## Github repo
+https://github.com/a4ayad/demo-2-node
+
 ## Instructions
 You've created and published your package to NPM, now we need to make it robust and usable. You will build a command line version of your resume. 
 
@@ -45,3 +52,13 @@ The above command creates node_modules/ folder if it doesn’t exist and adds ex
 $ node index.mjs 
 
 The above command should display the content of console.log() from index.mjs. 
+
+## JSON Resume
+https://jsonresume.org/getting-started/
+
+npm install -g resume-cli
+resume export Ahmed_Ayad_swe-1pg.pdf
+
+
+JSON Resume Exporter 
+ Chrome extension to import your LinkedIn Profile.
