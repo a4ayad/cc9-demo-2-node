@@ -1,47 +1,66 @@
-# Code Challenge 9: The NPM Resume 
+# Code Challenge 10: The NPM Resume 
 
-## npm url
-https://www.npmjs.com/package/demo-2-node
+## Heroku link 
 
 ## Github repo
-https://github.com/a4ayad/demo-2-node
+https://github.com/a4ayad/demo-2-node/tree/cc10-api-ahmed-resume
+
+
+AA Notes
+write our own resume API endpoint
+
+'express' is a dependency in package.json file. It allows us to build our own backend
+express is node framework for the backend
+
+www.npmjs.com
+www.npmjs.com/package/lodash
+another way to import packages into API
+
+downloaded Postman app from postman.com
+
+
+localhost:5000/ahmedResume
+
 
 ## Instructions
-You've created and published your package to NPM, now we need to make it robust and usable. You will build a command line version of your resume. 
+Code Challenge 10: The API Resume 
 
-Convert your written professional resume into an object. 
+You're made a command-line version of your resume, now it's time to build the api version with express. 
 
-Update your project so anyone can pull your new node package and run: 
+Added a `server` file [server.mjs] that brings in express and serves a route (name the route the same name you gave your npx command. 
 
-$ npx <some command name> 
+Add a home route ("/"). It should give instructions on how to use your api and promote your command-line resume. 
 
-and it displays your nicely formatted resume in the command line. 
+Export your postman collection and save it to your project. 
 
-Tag your project as v1.2.0 
+    downloaded Postman app from postman.com 
 
-Tag your project in Github as version 1.2.0 
+Push your project to Github (remember to ignore node_modules directory) 
 
-Push your package to npm 
+Deploy your app to Heroku 
 
-Open your terminal (anywhere) 
 
-type in $ npx <some command name>  
 
-Confirm it works as expected 
+### Submit: 
 
-Submit the follow: 
+Your Git Repo URL 
 
-You Github repo 
+Your Heroku link 
 
-You npm url 
 
-the name of your command 
-(whatever your called <some command name>) 
+### My work:
 
-My work:
+Created new github branch cc10-api-ahmed-resume under demo-2-node. 
+
+https://github.com/a4ayad/demo-2-node/tree/cc10-api-ahmed-resume 
 
 Starting point of the project which creates your package.json file. 
 
+$ node --version
+v15.3.0
+
+$ npm --version
+6.14.11
 
 $ npm init 
 
@@ -52,6 +71,16 @@ The above command creates node_modules/ folder if it doesn’t exist and adds ex
 $ node index.mjs 
 
 The above command should display the content of console.log() from index.mjs. 
+
+
+### Heroku
+
+Downloaded and installed 64-bit installer Heroku from https://devcenter.heroku.com/articles/heroku-cli for Windows
+
+
+$ reoku local
+
+$ heroku local web
 
 ## JSON Resume
 https://jsonresume.org/getting-started/

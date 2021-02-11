@@ -1,4 +1,4 @@
-export const app = {
+export const dataResume = {
     meta: {
         theme: "elegant"
     },
@@ -20,23 +20,23 @@ export const app = {
             degree: "MS",
             area: "EE"
         },
-        work: {
-            work0: {
-                summary0: "Digital ASIC Design and Implementation",
-                company0: "Self Employed",
-                position0: "IC CAD/EDA Consultant"
+        work: [
+            {
+                summary: "Digital ASIC Design and Implementation",
+                company: "Self Employed",
+                position: "IC CAD/EDA Consultant"
             },
-            work1: {
-                summary1: "EDA/CAD flows and methodologies",
-                company1: "Analog Devices",
-                position1: "Sr CAD Engineer"
+            {
+                summary: "EDA/CAD flows and methodologies",
+                company: "Analog Devices",
+                position: "Sr CAD Engineer"
             },         
-            work2: {
-                summary2: "EDA/CAD flows and methodologies",
-                company2: "PMC-Sierra is now Microsemi",
-                position2: "CAD Engineer"
+            {
+                summary: "EDA/CAD flows and methodologies",
+                company: "PMC-Sierra is now Microsemi",
+                position: "CAD Engineer"
             }
-        },
+        ],
         eda_tools: "Joules, Spyglass, Jupiter XT, Magellan, Incisive",
         specialties: "Strong EDA technical background using CAD tools from multiple vendors including Synopsys and Cadence.",
         languages: "Verilog, VHDL, Perl, C, TCL, Shell Scripts"
