@@ -16,9 +16,9 @@ const { basics } = dataResume;
 // build backend apps, URL
 // Route to the home page
 
-// app.get('/dataResume', (req, res) => 
-//     res.send(dataResume) 
-// );
+app.get('/dataResume', (req, res) => 
+    res.send(dataResume) 
+);
 
 app.get('/', (req, res) => 
     res.send(dataResume) 
