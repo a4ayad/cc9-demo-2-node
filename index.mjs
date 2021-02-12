@@ -22,7 +22,7 @@ const { basics: { work: { work1: { summary1, company1, position1 } } } } = dataR
 
 const { basics: { work: { work2: { summary2, company2, position2 } } } } = dataResume;
 
-
+// console.log(dataResume)
 console.log(`
     \n
     ${name}
