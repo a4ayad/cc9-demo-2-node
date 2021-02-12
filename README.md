@@ -6,10 +6,13 @@ https://www.npmjs.com/package/demo-2-node
 ## Github repo
 https://github.com/a4ayad/demo-2-node
 
-## Instructions
-You've created and published your package to NPM, now we need to make it robust and usable. You will build a command line version of your resume. 
+## NPX Command
+$ npx demo-2-node
 
-Convert your written professional resume into an object. 
+## Instructions
+Created and published the package to NPM, now we need to make it robust and usable. You will build a command line version of your resume. 
+
+Converted the written professional resume into an object. 
 
 Update your project so anyone can pull your new node package and run: 
 
